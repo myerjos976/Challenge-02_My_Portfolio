@@ -4,8 +4,8 @@
     --black: #000000;
     --blue: #007bff;
     --orange: #fccd4d;
+    --light-blue: #28b3f3;
     --background-color: #063358;
-    --article-color: #28b3f3;
     --section-color: #ececec;   
 }
 
@@ -34,8 +34,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    font-size: 150%;
     background-color: var(--blue);
     color: var(--white);
 }
@@ -43,6 +41,7 @@ header {
 h1 {
     font-size: 250%;
     font-weight: bold;
+    padding-left: 1%;
 }
 
 /* 
@@ -50,32 +49,31 @@ h1 {
     Children: u1
 */
 h2 {
-    font-size: 200%;
+    font-size: 150%;
     font-weight: bold;
-    padding: 2%;
+    padding: 8px;
     background-color: var(--blue);
     color: var(--white);
 }
 
-header li {
-    font-size: 150%;
-    margin: 5%;
-}
-
 nav u1 {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+    display:flex;
     list-style: none;
 }
 
-
+nav li {
+    padding-bottom: 1%;
+    margin-right: 30px;
+}
 
 nav a {
     color: var(--white);
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
+    border-bottom: 3px solid var(--light-blue);
+    padding-bottom: 4%;
+    width: max-content;
 }
 
 nav a:hover {
@@ -83,8 +81,9 @@ nav a:hover {
 }
 
 /* Formats banner. */
-.banner {
-
+.banner h2 {
+    justify-content: right;
+    padding-left: 1%;
 }
 
 .profile-pic {
@@ -120,7 +119,7 @@ nav a:hover {
 .content section {
     padding: 2%;
     background-color: var(--section-color);
-    border: 5px solid var(--article-color);
+    border: 5px solid var(--light-blue);
 }
 
 .content p {
@@ -151,22 +150,20 @@ nav a:hover {
 */
 footer {
     display: flex;
-    justify-content: left;
-    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
     background-color: var(--blue);
     color: var(--white);
-    margin-top: 2%;
 }
 
 footer u1 {
     display: flex;
-    justify-content: space-between;
-    min-width: 300px;
     list-style: none;
 }
 
 footer li {
-    margin: 5%;
+    margin-right: 30px;
 }
 
 footer a {
@@ -177,8 +174,6 @@ footer a {
 
 footer a:hover {
     color: var(--orange);
-    font-weight: bold;
-    font-size: 25px;
 }
 
 
