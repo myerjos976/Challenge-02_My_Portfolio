@@ -13,81 +13,84 @@
     </head>
 
     <body>
-        <!--Header and Navigation Bar to various sections in my portfolio.-->       
+        <!-- Header and Navigation Bar to various sections in my portfolio. -->       
         <header>
             <h1>Joshua Myers</h1>
 
             <nav>
                 <u1>
                     <li>
-                        <a href="#about-me-section"> About Me</a>
+                        <a href="#about-me-article"> About Me</a>
                     </li>
                     <li>
-                        <a href="#projects-section"> My Projects</a>
+                        <a href="#projects-article"> My Projects</a>
                     </li>
                     <li>
-                        <a href="#contact-section"> Contact Me</a>
+                        <a href="#contact-footer"> Contact Me</a>
                     </li>
                 </u1>
             </nav>
-            <!--Photo Banner-->
-            <article class="hero"></article>
-            <h2>Subtitle</h2>
+            <!-- Photo Banner -->
+            <article class="banner"></article>
+            <h2>Portfolio</h2>
         </header>
-    
-        <!--Profile Picture-->
-        <article class="profile-pic"></article>
 
-
-        <!--About Me Section-->
-        <article class="content">
-            <section class="about-me-section">
+        <main class="content">
+            <!-- About Me Section -->
+            <article class="about-me-article">
+                <!-- Profile Picture -->
+                <div class="profile-pic">
+                    <img src="../images/Profile_Photo_2022_Cropped.jpg" alt="Joshua Myers profile picture."/>
+                </div>
                 <h2>About Me</h2>
-                <p>
-                    My name is Joshua Myers. I am a jr. programmer and web developer. 
-                    I have taken Foundations of Computer Science, Object-oriented Programming, and Intro to Algorithms and Data Structures at the University of Utah and I am currently taking their Coding and Web Development Bootcamp. 
-                    I have experience in the languages: Java, HTML, CSS, git, and JavaScript.
-                    I hope to become either a software developer or web developer to apply/further the skills that I have learned. 
-                    My hobbies include watching movies, playing video games, painting, and bowling. My favorite movie is <i>Star Wars: Empire Strikes</i> and my favorite food is Pizza.
-                </p>
-            </section>
-
+                <section>                   
+                    <p>
+                        My name is Joshua Myers. I am a jr. programmer and web developer. 
+                        I have taken Foundations of Computer Science, Object-oriented Programming, and Intro to Algorithms and Data Structures at the University of Utah and I am currently taking their Coding and Web Development Bootcamp. 
+                        I have experience in the languages: Java, HTML, CSS, git, and JavaScript.
+                        I hope to become either a software developer or web developer to apply/further the skills that I have learned. 
+                        My hobbies include watching movies, playing video games, painting, and bowling. My favorite movie is <i>Star Wars: Empire Strikes</i> and my favorite food is Pizza.
+                    </p>
+                </section>
+            </article>
             <!--
                 Projects Section that contains my portfolio projects.
                 Each section has its own label, picture, and hyperlink functionality.
             -->
-            <section class="projects-section">
+            <article class="projects-article">
                 <h2>My Projects</h2>
-                <div>
-                    <h3>Accessibility Code Refactor</h3>
-                    <p>HTML/CSS</p>
-                </div>
+                <section>  
+                    <div class="large-card">
+                        <h3>Accessibility Code Refactor</h3>
+                        <p>HTML/CSS</p>
+                    </div>
 
-                <div>
-                    <h3>Project 2: Coming Soon</h3>
-                    <p>Language/Language/Language</p>
-                </div>
+                    <div class="card">
+                        <h3>Project 2: Coming Soon</h3>
+                        <p>Language/Language/Language</p>
+                    </div>
 
-                <div>
-                    <h3>Project 3: Coming Soon</h3>
-                    <p>Language/Language/Language</p>
-                </div>
+                    <div class="card">
+                        <h3>Project 3: Coming Soon</h3>
+                        <p>Language/Language/Language</p>
+                    </div>
 
-                <div>
-                    <h3>Project 4: Coming Soon</h3>
-                    <p>Language/Language/Language</p>
-                </div>
+                    <div class="card">
+                        <h3>Project 4: Coming Soon</h3>
+                        <p>Language/Language/Language</p>
+                    </div>
 
-                <div>
-                    <h3>Project 5: Coming Soon</h3>
-                    <p>Language/Language/Language</p>
-                </div>
-            </section>
-        </article>
+                    <div class="card">
+                        <h3>Project 5: Coming Soon</h3>
+                        <p>Language/Language/Language</p>
+                    </div>
+                </section>
+            </article>
+        </main>
     
 
         <!-- Footer with my contact information -->
-        <footer>
+        <footer class="contact-footer">
             <h2>Contact Me</h2>
             <u1>
                 <li>
