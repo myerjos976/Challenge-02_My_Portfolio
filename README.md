@@ -20,7 +20,9 @@ This site contains navigation links to all of my projects. Clicking on one will 
 Each project section contains name and a preview of the project which functions as a hyperlink to that project.
 
 ## Credits
-Joshua Myers
+Bianary Stock Photo from iStock Photos
+
+Code: Joshua Myers, U of U Bootcamp
 
 ## License
 © 2023 Joshua Myers. Confidential and Proprietary. All Rights Reserved.

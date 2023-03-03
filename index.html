@@ -33,37 +33,45 @@
         </header>
 
         <!-- Photo Banner -->
-        <article class="banner"></article>
-        <h2>Portfolio</h2>
+        <article class="banner">
+            <h2>My Portfolio</h2>
+        </article>
 
         <main class="content">
-            <!-- About Me Section -->
-            <article id="about-me-article">
-                <!-- Profile Picture -->
-                <div class="profile-pic">
-                    <img src="../images/Profile_Photo_2022_Cropped.jpg" alt="Joshua Myers profile picture."/>
-                </div>
-                <h2>About Me</h2>
-                <section>                   
-                    <p>
-                        My name is Joshua Myers. I am a jr. programmer and web developer. 
-                        I have taken Foundations of Computer Science, Object-oriented Programming, and Intro to Algorithms and Data Structures at the University of Utah and I am currently taking their Coding and Web Development Bootcamp. 
-                        I have experience in the languages: Java, HTML, CSS, git, and JavaScript.
-                        I hope to become either a software developer or web developer to apply/further the skills that I have learned. 
-                        My hobbies include watching movies, playing video games, painting, and bowling. My favorite movie is <i>Star Wars: Empire Strikes</i> and my favorite food is Pizza.
-                    </p>
-                </section>
-            </article>
+            <div class="Top-Section">
+                <!-- Profile Picture -->                 
+                <div class="profile-pic"></div>
+                 <!-- About Me Section -->
+                <article id="about-me-article">              
+                    <h2>About Me</h2> 
+                    <section>                   
+                        <p>
+                            My name is Joshua Myers. I am a software and web developer. 
+                            I have taken Foundations of Computer Science, Object-oriented Programming, and Intro to Algorithms and Data Structures at the University of Utah. I am currently taking their Coding and Web Development Bootcamp. 
+                            I have experience in the languages: Java, HTML, CSS, git, and JavaScript.
+                            I hope to become either a software developer or web developer to apply/further the skills that I have learned. 
+                            My hobbies include: watching movies, playing video games, painting, and bowling. My favorite movie is <i>Star Wars: Empire Strikes</i> and my favorite food is Pizza.
+                        </p>
+                    </section>
+                </article>
+            </div>
+                   
             <!--
                 Projects Section that contains my portfolio projects.
-                Each section has its own label, picture, and hyperlink functionality.
+                Each section has its own label and picture (with hyperlink functionality).
             -->
             <article id="projects-article">
                 <h2>My Projects</h2>
                 <section>  
                     <div class="large-card">
-                        <h3>Accessibility Refactor</h3>
-                        <p>HTML/CSS</p>
+                        <!-- Creates an image that functions as a hyperlink. -->
+                        <a href="https://myersjos967.github.io/Challenge-01_Code_Refactor/">
+                            <img src="./assets/images/Accessibility_Refactor.jpg" alt="Accessibility_Refactor Project." width="1000px" height="700px"/>
+                        </a>
+                        <div class="label">
+                            <h3>Accessibility Refactor</h3>
+                            <p>HTML/CSS</p>
+                        </div>
                     </div>
 
                     <div class="card">
@@ -88,7 +96,6 @@
                 </section>
             </article>
         </main>
-    
 
         <!-- Footer with my contact information -->
         <footer id="contact-footer">
