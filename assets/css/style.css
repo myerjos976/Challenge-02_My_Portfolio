@@ -4,7 +4,7 @@
     --black: #000000;
     --blue: #0177f5;
     --orange: #fccd4d;
-    --light-blue: #28b3f3;
+    --light-blue: #4da3ff;
     --background-color: #0c5591;
     --section-color: #e0eaf7;   
 }
@@ -156,10 +156,13 @@ nav a:hover {
     margin: 2%;
     display:flex;
     max-width:max-content;
-    justify-content: center;
     padding: 1%;
     background-color: var(--blue);
     color: var(--white);
+}
+
+.large-card:hover {
+    background-color: var(--light-blue);
 }
 
 .large-card a {
@@ -173,6 +176,10 @@ nav a:hover {
     padding: 1%;
     background-color: var(--blue);
     color: var(--white);
+}
+
+.card:hover {
+    background-color: var(--light-blue);
 }
 
 .card a {
@@ -232,7 +239,3 @@ footer a {
 footer a:hover {
     color: var(--orange);
 }
-
-
-
-
