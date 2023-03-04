@@ -3,7 +3,8 @@
 ## Description
 This is a portfolio of all my web development projects from my U of U Coding Bootcamp. 
 It contains an about me section, navigation to the various project previews and hyperlinks to those projects.
-Screenshot:
+Screenshot:![image](https://user-images.githubusercontent.com/122832005/222931771-4ab443c7-e1c6-4e2d-9700-8ccfc53ee61d.png)
+
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,7 +13,7 @@ Screenshot:
 - [License](#license)
 
 ## Installation
-Link to deployed webpage: 
+Link to deployed webpage: https://myersjos967.github.io/Challenge-02_My_Portfolio/
 
 
 ## Usage
