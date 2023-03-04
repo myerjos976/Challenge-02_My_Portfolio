@@ -6,7 +6,7 @@
     --orange: #fccd4d;
     --light-blue: #28b3f3;
     --background-color: #0c5591;
-    --section-color: #ececec;   
+    --section-color: #e0eaf7;   
 }
 
 /* Formats whole page. Parent of everything.*/
@@ -54,6 +54,13 @@ h2 {
     font-size: 150%;
     font-weight: bold;
     padding: 8px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: bold;
     background-color: var(--blue);
     color: var(--white);
 }
@@ -125,7 +132,7 @@ nav a:hover {
 .content article {
     margin: 1%;
     margin-bottom: 2%;
-    padding-left: 2%;
+    padding-left: 1%;
     padding-right: 2%;
     border-left: 5px solid var(--orange);
 }
@@ -147,21 +154,45 @@ nav a:hover {
 */
 .large-card {
     margin: 2%;
-    display: flex;
+    display:flex;
     max-width:max-content;
+    justify-content: center;
     padding: 1%;
-    padding-left: 20%;
-    padding-right: 20%;
     background-color: var(--blue);
     color: var(--white);
+}
+
+.large-card a {
+    text-decoration: none;
 }
 
 .card {
     margin: 2%;
     display: inline-flex;
-    padding: 8%;
+    max-width:max-content;
+    padding: 1%;
     background-color: var(--blue);
     color: var(--white);
+}
+
+.card a {
+    text-decoration: none;
+}
+
+
+.label {
+    text-decoration: none;
+    max-width:max-content;
+    margin-top: 0%;
+    margin-right: 60%;
+    padding-right: 20px;
+    padding-bottom:5px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.label p {
+    font-size: 18px;
 }
 
 /* 
