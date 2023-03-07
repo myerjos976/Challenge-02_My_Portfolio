@@ -3,7 +3,9 @@
 ## Description
 This is a portfolio of all my web development projects from my U of U Coding Bootcamp. 
 It contains an about me section, navigation to the various project previews and hyperlinks to those projects.
-Screenshot:![image](https://user-images.githubusercontent.com/122832005/223330688-b3bac90b-2ae5-48ab-af99-ac7a9628fa25.png)
+
+## Screenshot
+![image](https://user-images.githubusercontent.com/122832005/223330688-b3bac90b-2ae5-48ab-af99-ac7a9628fa25.png)
 
 
 ## Table of Contents
