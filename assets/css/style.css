@@ -15,10 +15,7 @@
     font-size: 20px;
 }
 
-/* 
-    Formats whole body.
-    Children: header, .profile-pic, .content, and footer
-*/
+/* Formats whole body. */
 body {
     display: flex;
     flex-direction: column;
@@ -26,10 +23,7 @@ body {
     background-color: var(--background-color);
 }
 
-/* 
-    Formats header section.
-    Children: h1, nav, and .banner
-*/
+/* Formats header section. */
 header {
     display: flex;
     justify-content: space-between;
@@ -46,10 +40,7 @@ h1 {
     padding-left: 1%;
 }
 
-/* 
-    Formatting for Navigation Bar.
-    Children: u1
-*/
+/* Formatting for Navigation Bar. */
 h2 {
     font-size: 150%;
     font-weight: bold;
@@ -116,10 +107,7 @@ nav a:hover {
     float: left;
 }
 
-/*
-    Formats content articles
-    Children: .about-me-section and .projects-section
-*/
+/* Formats content articles */
 .content {
     line-height: 180%;
 }
@@ -149,13 +137,10 @@ nav a:hover {
     font-size: 120%;
 }
 
-/*
-    Formats the cards containing projects.
-*/
+/* Formats the large card containing main project. */
 .large-card {
     margin: 2%;
     display:flex;
-    max-width:max-content;
     padding: 1%;
     background-color: var(--blue);
     color: var(--white);
@@ -167,8 +152,16 @@ nav a:hover {
 
 .large-card a {
     text-decoration: none;
+    width: 100%;
 }
 
+.largeProjectImg {
+   height:1000px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* Formats the small cards containing other projects. */
 .card {
     margin: 2%;
     display: inline-flex;
@@ -202,10 +195,7 @@ nav a:hover {
     font-size: 18px;
 }
 
-/* 
-    Formatting for Contact Section.
-    Children: h2 and u1
-*/
+/* Formatting for Contact Section. */
 footer {
     display: flex;
     justify-content: space-between;
@@ -239,3 +229,4 @@ footer a {
 footer a:hover {
     color: var(--orange);
 }
+
