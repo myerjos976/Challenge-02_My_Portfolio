@@ -29,5 +29,3 @@ Code: Joshua Myers, U of U Bootcamp
 
 ## License
 © 2023 Joshua Myers. Confidential and Proprietary. All Rights Reserved.
-
-Test
