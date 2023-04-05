@@ -1,4 +1,4 @@
-#Joshua Myers Portfolio
+##Joshua Myers Portfolio
 
 ## Description
 This is a portfolio of all my web development projects from my U of U Coding Bootcamp. 
