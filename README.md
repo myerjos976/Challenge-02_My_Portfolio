@@ -15,7 +15,7 @@ It contains an about me section, navigation to the various project previews and 
 - [License](#license)
 
 ## Installation
-Link to deployed webpage: https://myersjos976.github.io/Challenge-02_My_Portfolio/
+Link to deployed webpage: https://myersjos976.github.io/My_Portfolio/
 
 
 ## Usage
