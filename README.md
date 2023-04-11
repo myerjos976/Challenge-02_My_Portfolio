@@ -5,7 +5,7 @@ This is a portfolio of all my web development projects from my U of U Coding Boo
 It contains an about me section, navigation to the various project previews and hyperlinks to those projects.
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/122832005/229989991-50131026-99a1-426c-9c61-8fa7983352a1.png)
+![image](https://user-images.githubusercontent.com/122832005/231050217-ead0aa84-039f-4703-8e84-602e87103a4b.png)
 
 
 ## Table of Contents
